@@ -149,7 +149,7 @@ The compiler toolchain includes the tool ``make`` to keep track of all of these 
 ## Makefiles
 Makefiles are composed of a sequence of rules:
 ```
-target: dedpendencies...
+target: dependencies...
     recipe
 ```
 IMPORTANT NOTE: the whitespace before recipe is a TAB, not a SPACE.
