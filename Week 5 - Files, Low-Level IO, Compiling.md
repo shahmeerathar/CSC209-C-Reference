@@ -32,7 +32,7 @@ They are handled the same way as text files using ```fopen()```. However, they m
 - The return value is the number of elements successfully written to the file, or 0 on error.
 
 ## Reading binary files
-```size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);``` to write binary data to a file.
+```size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);``` to read binary data from a file.
 - ```*ptr``` is the address we want to write to from the file. Typically the head of an array, but can be the pointer to an individual variable. Note that this is not a constant anymore.
 - ```size``` is the size of each element to be read.
 - ```nmemb``` is the no. of elements to be read from a file.
