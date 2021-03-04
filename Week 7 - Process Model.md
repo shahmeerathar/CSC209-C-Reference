@@ -1,5 +1,6 @@
 # Week 7
-## Process Models
+# Processes
+## Process models
 Program: The executable instructions of a program, either source code or machine code.
 
 Process: Running instance of a program. Includes machine code + the current state of the process, such as current variable values or what instruction to execute next.
